@@ -1,0 +1,5 @@
+{
+  "name": "hadith-plugin",
+  "description": "Query the hadith dataset from OpenWebUI.",
+  "entry_point": "plugin.py"
+}

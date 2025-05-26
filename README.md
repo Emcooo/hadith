@@ -116,3 +116,9 @@ Shafie, Omar Abdulfattah. KASHAF: A Knowledge-Graphs Approach Search-Engine for 
   school={Hamad Bin Khalifa University (Qatar)}
 }
 ```
+
+## OpenWebUI Integration
+
+A minimal integration is provided in the `openwebui` folder for running Hadith searches inside [OpenWebUI](https://github.com/open-webui/open-webui). The plugin exposes a `search_hadith` function that returns matching hadith records from the local dataset.
+
+To use it, copy the `openwebui` directory into the `plugins` folder of your OpenWebUI installation and restart the server.
